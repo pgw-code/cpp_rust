@@ -1,0 +1,10 @@
+[package]
+name = "cpp_rust_linkedlist"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "linked_list"
+crate-type = ["cdylib"]
+ 
+[dependencies]
